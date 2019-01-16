@@ -1,0 +1,32 @@
+{
+  "name": "frare-matteo-194112-jan2019",
+  "version": "1.0.0",
+  "description": "esame gennaio 2019",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frrmtt/Frare-Matteo-194112-jan2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frrmtt/Frare-Matteo-194112-jan2019/issues"
+  },
+  "homepage": "https://github.com/frrmtt/Frare-Matteo-194112-jan2019#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-modules": "^1.0.1",
+    "supertest": "^3.4.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
