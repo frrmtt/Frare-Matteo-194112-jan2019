@@ -6,7 +6,7 @@ app.use( bodyParser.json() );
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.listen(PORT, () => console.log('Example app listening on port '+ PORT));
-app.get('/', (req, res) => res.send('usare /api'));
+app.get('/', (req, res) => res.send('usare /api').status(200));
 app.get('/api', (req, res) => res.send('applicazione usare /api/'));
 
 let rooms = [ {'main': [{id: 0, name: 'nome_utente', msg: 'messaggio' },
